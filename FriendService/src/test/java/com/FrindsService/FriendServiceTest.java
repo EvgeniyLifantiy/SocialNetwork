@@ -25,13 +25,13 @@ public class FriendServiceTest {
         userArrayList.add(user);
         userArrayList.add(user1);
 
-        FriendService friendService=new FriendService();
+        FriendService friendService=new FriendService(userArrayList);
 
 
 
-        Assert.assertEquals(user.getProfile(),friendService.searchFriend("Artur","Blake",userArrayList));
-        Assert.assertEquals(user1.getProfile(),friendService.searchFriend("John","Naige",userArrayList));
-        Assert.assertEquals("Пользователь не найден",friendService.searchFriend("John1","Naige",userArrayList));
+        Assert.assertEquals(user.getProfile(),friendService.searchFriend("Artur","Blake"));
+        Assert.assertEquals(user1.getProfile(),friendService.searchFriend("John","Naige"));
+        Assert.assertEquals("Пользователь не найден",friendService.searchFriend("John1","Naige"));
     }
 
 
@@ -43,7 +43,7 @@ public class FriendServiceTest {
         ArrayList ArturFriendList=new ArrayList();
         ArturFriendList.add(user1);
 
-        FriendService friendService=new FriendService();
+        FriendService friendService=new FriendService(userArrayList);
 
 
 

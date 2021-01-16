@@ -5,9 +5,16 @@ import java.util.ArrayList;
 
 public class FriendService implements FriendAction{
 
+    ArrayList<User> Userlist;
+
+
+    public FriendService(ArrayList userArrayList){
+        this.Userlist=userArrayList;
+    }
+
 
     @Override
-    public String searchFriend(String name, String surname, ArrayList<User> Userlist) {
+    public String searchFriend(String name, String surname) {
 
         int index=0;
 
