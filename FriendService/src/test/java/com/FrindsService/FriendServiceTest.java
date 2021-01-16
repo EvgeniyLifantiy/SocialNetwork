@@ -1,7 +1,7 @@
 package com.FrindsService;
 
 import com.FriendService.FriendService;
-import com.FriendService.User;
+import com.UserAccount.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -19,12 +19,6 @@ public class FriendServiceTest {
 
     @Test
     public void TestSearchFriend(){
-
-
-
-
-
-
 
 
 

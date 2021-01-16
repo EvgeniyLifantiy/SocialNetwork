@@ -1,6 +1,6 @@
 package com.FriendService;
 
-
+import com.UserAccount.User;
 import java.util.ArrayList;
 
 public class FriendService implements FriendAction{

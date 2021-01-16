@@ -1,11 +1,12 @@
 package com.ProfileService;
 
 
-import com.FriendService.User;
+
+import com.UserAccount.User;
 
 public interface ShowProfile {
 
-    public  String showUserProfile(User friend);
+    public String showUserProfile(User friend) throws NonExistentUserException;
 
 
 

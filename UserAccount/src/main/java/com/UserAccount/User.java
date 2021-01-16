@@ -1,4 +1,4 @@
-package com.FriendService;
+package com.UserAccount;
 import java.util.ArrayList;
 import java.util.List;
 
