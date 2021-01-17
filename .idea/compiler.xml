@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FriendService" />
-        <module name="UserAccount" />
         <module name="ProfileService" />
+        <module name="UserAccount" />
+        <module name="ChatService" />
       </profile>
     </annotationProcessing>
   </component>

@@ -12,6 +12,7 @@
         <module>ProfileService</module>
         <module>FriendService</module>
         <module>UserAccount</module>
+        <module>ChatService</module>
     </modules>
     <dependencies>
         <dependency>

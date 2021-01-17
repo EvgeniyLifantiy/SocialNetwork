@@ -10,7 +10,21 @@ public class User  {
 
     private int age;
 
+    public void setFriendlist(List<User> friendlist) {
+        this.friendlist = friendlist;
+    }
+
+    public List<String> getInbox() {
+        return inbox;
+    }
+
+    public void setInbox(List<String> inbox) {
+        this.inbox = inbox;
+    }
+
     private List<User> friendlist =new ArrayList<>();
+
+    private List<String> inbox= new ArrayList<>();
 
     public User(String name, String surname, int age) {
         this.name = name;
